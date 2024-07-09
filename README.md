@@ -1,5 +1,7 @@
 #### Steps
 
+### Getting Started
+
 - npm init -y
 - npm install webpack webpack-cli --save-dev
 - package.json 
@@ -12,3 +14,12 @@
 - Webpack config -> webpack.config.js
 - To run using specific config name, use `npx webpack --config webpack.config.js` 
 - Usually, add it to npm build script
+
+### Asset Management
+
+- CSS: npm install --save-dev style-loader css-loader
+- IMAGES: add 
+`{
+    test: /\.(png|svg|jpeg|gif)$/i,
+    type: 'asset/resource'
+}` to webpack config
