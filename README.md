@@ -42,3 +42,5 @@
 - edit webpack config entry point to be object with two paths
 - update output to include [name] for the bundle name
 - the name of the bundle relies on the name of the entry point key
+- HTML Webpack plugin: npm install --save-dev html-webpack-plugin
+- HTMLWebpackPlugin will create a new index.html, which will replace the one we have
