@@ -37,4 +37,8 @@
 
 ### Output Management
 
-
+- create new print function
+- update dist/index.html to have two script src
+- edit webpack config entry point to be object with two paths
+- update output to include [name] for the bundle name
+- the name of the bundle relies on the name of the entry point key
